@@ -20,7 +20,7 @@
     height: 28px;
     background-color: #ffffff;
     border-radius: 75px;
-    border: 2px solid #3ACFEF;
+    border: 2px solid #c800a3;
     position: relative;
     cursor: pointer;
     transition: all .5s;
@@ -36,14 +36,14 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: #3ACFEF;
+    background-color: #c800a3;
     transition: all .5s;
 }
 
 #toggle-input:checked~#toggle-label,
 #toggle-input2:checked~#toggle-label2,
 #toggle-input3:checked~#toggle-label3 {
-    background-color: #3ACFEF;
+    background-color: #c800a3;
 }
 
 #toggle-input:checked~#toggle-label::before,
@@ -111,7 +111,7 @@
 .store {
     width: 120px;
     height: 30px;
-    border: 2px solid #3ACFEF;
+    border: 2px solid #c800a3;
     border-radius: 75px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@
     border-radius: 75px;
     cursor: pointer;
     display: flex;
-    border: 2px solid #3ACFEF;
+    border: 2px solid #c800a3;
     position: absolute;
     top: 50%;
     right: 10px;
@@ -163,7 +163,7 @@
 }
 
 .option.selected {
-    background-color: #3ACFEF;
+    background-color: #c800a3;
     color: #ffffff;
 }
 
@@ -171,7 +171,7 @@
     width: 150px;
     margin-top: 50px;
     padding: 10px 20px;
-    background-color: #3ACFEF;
+    background-color: #c800a3;
     color: #ffffff;
     border-radius: 15px;
     cursor: pointer;

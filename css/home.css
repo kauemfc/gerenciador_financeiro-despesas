@@ -4,7 +4,8 @@
     --color-light: #f0eff5;
     --color-gray-light: #D4D4D4;
     --color-dark: #393232;
-    --color-primary: #3ACFEF;
+    --color-mardito: #c800a3;
+    --color-mardito: c800a3;
     --color-success: rgba(37, 178, 43, 0.44);
     --color-purple: #CC8BFF;
     --color-danger: rgb(189, 72, 72);
@@ -86,7 +87,7 @@ small{
 
 nav{
     width: 100%;
-    background: #2f75d0;
+    background: rgb(35, 35, 35);
     padding: 1rem 0;
 }
 
@@ -101,6 +102,7 @@ nav .container{
 
 nav img.logo{
     width: 7rem;
+    border-radius: 20px;
 }
 
 nav .profile-area{
@@ -168,7 +170,7 @@ main aside .sidebar a span{
 
 main aside .sidebar a.active{
     background: var(--color-light);
-    color: var(--color-primary);
+    color: var(--color-mardito);
 }
 
 main aside .sidebar a.active::before{
@@ -176,11 +178,11 @@ main aside .sidebar a.active::before{
     width: 6px;
     height: 100%;
     position: absolute;
-    background: var(--color-primary);
+    background: var(--color-mardito);
 }
 
 main aside .sidebar a:hover{
-    color: var(--color-primary);
+    color: var(--color-mardito);
 }
 
 main aside .sidebar a:hover span{
@@ -200,7 +202,7 @@ main aside .sidebar h4{
 }
 
 categorias-stats .stats-box{
-    background: #2f75d0;
+    background: #c800a3;
 }
 
 .categorias-sales{
@@ -312,7 +314,7 @@ main .card .progress::before {
     top: 0;
     left: 0;
     height: 100%;
-    background: var(--color-primary);
+    background: var(--color-mardito);
     width: 70%;
 }
 
