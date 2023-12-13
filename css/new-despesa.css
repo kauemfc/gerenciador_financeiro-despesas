@@ -1,0 +1,178 @@
+.section-new-despesa {
+    width: 100%;
+    height: auto;
+}
+
+.form-new-despesa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    gap: 10px;
+}
+
+#toggle-label,
+#toggle-label2,
+#toggle-label3 {
+    display: inline-block;
+    width: 56px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 75px;
+    border: 2px solid #3ACFEF;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#toggle-label::before,
+#toggle-label2::before,
+#toggle-label3::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3ACFEF;
+    transition: all .5s;
+}
+
+#toggle-input:checked~#toggle-label,
+#toggle-input2:checked~#toggle-label2,
+#toggle-input3:checked~#toggle-label3 {
+    background-color: #3ACFEF;
+}
+
+#toggle-input:checked~#toggle-label::before,
+#toggle-input2:checked~#toggle-label2::before,
+#toggle-input3:checked~#toggle-label3::before {
+    left: 30px;
+    background-color: #ffffff;
+}
+
+#toggle-input,
+#toggle-input2,
+#toggle-input3 {
+    display: none;
+}
+
+#input-text,
+#input-text2,
+#input-text3 {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(123, 123, 123);
+    font-size: 1.1rem;
+}
+
+.label-input {
+    position: relative;
+    width: 350px;
+    height: auto;
+}
+
+.label-input input {
+    pointer-events: none;
+}
+
+.checkbox {
+    position: absolute;
+    width: 56px;
+    height: 28px;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.banner-store {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.banner-store img {
+    width: auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.store {
+    width: 120px;
+    height: 30px;
+    border: 2px solid #3ACFEF;
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wallet-carteira {
+    width: 120px;
+    height: 30px;
+    border-radius: 75px;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid #3ACFEF;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-carteira img {
+    width: auto;
+}
+
+#toggle-label-carteira {
+    cursor: pointer;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.option {
+    width: 100px;
+    height: 30px;
+    border-radius: 75px;
+    background-color: #bdbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.option.selected {
+    background-color: #3ACFEF;
+    color: #ffffff;
+}
+
+.btn-salvar {
+    width: 150px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #3ACFEF;
+    color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
